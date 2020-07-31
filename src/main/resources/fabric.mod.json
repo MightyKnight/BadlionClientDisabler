@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "blcdisabler",
+  "version": "${version}",
+
+  "name": "Badlion Client Disabler",
+  "description": "A server-side fabric mod to allow server owners to disable features and mods in the Badlion client: https://client.badlion.net/",
+  "authors": [
+    "AlexanderRitter02"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/badlionclientdisabler",
+    "sources": "https://github.com/AlexanderRitter02/BadlionClientDisabler",
+    "issues": "https://github.com/AlexanderRitter02/BadlionClientDisabler/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/blcdisabler/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.alexanderritter02.blcdisabler.BadlionClientDisabler"
+    ]
+  },
+  "mixins": [
+    "blcdisabler.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
