@@ -6,12 +6,12 @@
   "name": "Badlion Client Disabler",
   "description": "A server-side fabric mod to allow server owners to disable features and mods in the Badlion client: https://client.badlion.net/",
   "authors": [
-    "AlexanderRitter02"
+    "MightyKnight"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/badlionclientdisabler",
-    "sources": "https://github.com/AlexanderRitter02/BadlionClientDisabler",
-    "issues": "https://github.com/AlexanderRitter02/BadlionClientDisabler/issues"
+    "sources": "https://github.com/MightyKnight/BadlionClientDisabler",
+    "issues": "https://github.com/MightyKnight/BadlionClientDisabler/issues"
   },
 
   "license": "MIT",
@@ -20,7 +20,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "me.alexanderritter02.blcdisabler.BadlionClientDisabler"
+      "me.mightyknight.blcdisabler.BadlionClientDisabler"
     ]
   },
   "mixins": [

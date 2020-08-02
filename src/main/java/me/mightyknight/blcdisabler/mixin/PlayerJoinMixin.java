@@ -1,6 +1,6 @@
-package me.alexanderritter02.blcdisabler.mixin;
+package me.mightyknight.blcdisabler.mixin;
 
-import me.alexanderritter02.blcdisabler.BadlionClientDisabler;
+import me.mightyknight.blcdisabler.BadlionClientDisabler;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.server.PlayerManager;
 import net.minecraft.server.network.ServerPlayerEntity;

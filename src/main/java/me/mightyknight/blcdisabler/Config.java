@@ -1,4 +1,4 @@
-package me.alexanderritter02.blcdisabler;
+package me.mightyknight.blcdisabler;
 
 import com.google.gson.JsonObject;
 
