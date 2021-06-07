@@ -16,6 +16,7 @@ public class Config {
     private class DisallowedMods {
         private boolean disabled;
         private JsonObject extra_data;
+        private JsonObject settings;
     }
 
 }

@@ -63,6 +63,47 @@ This example config will fully disable the waypoints and minimap mods. It will n
 }
 ```
 
+#### Schematica printer mode
+
+By default, Schematica printer cannot be enabled on servers.
+You need to specify that your server allows it using this API, like in this example :
+
+```json
+{  
+    "modsDisallowed": {  
+        "Schematica": {  
+            "disabled": false,
+            "extra_data": {  
+                "printerEnabled": {  
+                    "forced": true
+                }
+            }
+        }
+    }
+}
+```
+
+#### AutoText command whitelist
+
+Instead of disabling the AutoText mod, you can specify a list of commands that you want to allow.
+Below is an example which allows the use of a few commands:
+
+```json
+{  
+    "modsDisallowed": {  
+        "AutoText": {  
+            "disabled": false,
+            "settings": {  
+                "whitelistedCommands": [
+                    "/warp",
+                    "/help"
+                ]
+            }
+        }
+    }
+}
+```
+
 ## Compiling
 1. Clone this repository and navigate into the directory
 2. Launch a build with Gradle using `gradlew build` (Windows CMD) or `./gradlew build` (macOS/Linux/Powershell)
