@@ -20,7 +20,7 @@
 
 ## Installation
 
-1. Download the latest release corresponding to your Minecraft version from the [official CurseForge page](https://www.curseforge.com/minecraft/mc-mods/badlionclientdisabler/files) or the [Github release page](https://github.com/MightyKnight/BadlionClientDisabler/releases).
+1. Download the latest release corresponding to your Minecraft version from the [official Modrinth page](https://modrinth.com/mod/badlionclientdisabler) or the [Github release page](https://github.com/MightyKnight/BadlionClientDisabler/releases).
 2. Place the downloaded jar into your `mods` directory on your Fabric server.
 3. Start the server and a default config will created at `config/blcdisabler.json`
 4. Edit the config as you see fit and run the command `/blcdisabler reload` ingame or in the console (see below for more information).
